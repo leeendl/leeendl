@@ -1,12 +1,13 @@
-
 <img align="right" src="https://discord.c99.nl/widget/theme-4/825616080714203146.png" />
 
 ```c++
+#include <stdio.h>
+
 int main()
 {
-  std::string bio = "i'm a C++ enthusiast & love listening to Ichiko Aoba";
-  std::cout << bio << std::endl;
+    const char *bio = "I love c++ & ichiko aoba \n";
+    printf(bio);
 
-  return 0;
+    return 0;
 }
 ```
