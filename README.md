@@ -3,8 +3,7 @@
 
 int main()
 {
-    const char *bio = "I love c++ & ichiko aoba \n";
-    printf(bio);
+    wprintf("我喜欢C++也喜欢听青葉市子\n");
 
     return 0;
 }
